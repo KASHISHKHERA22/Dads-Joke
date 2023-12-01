@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: rgb(221, 14, 135);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+h2 {
+    text-align: center;
+    color: darkmagenta;
+}
+
+h3 {
+    text-align: center;
+}
+
+.container {
+    width: 50rem;
+    height: 15rem;
+    background-color: aqua;
+    color: rgb(247, 17, 17);
+    position: relative;
+    top: 2rem;
+    margin: auto;
+    border-radius: 0.85rem;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 2.75rem;
+}
+
+#jokeButton {
+    position: relative;
+    left: 40rem;
+    top: -1rem;
+
+}
+
+#jokeButton:hover {
+    font-weight: bold;
+    background-color: lavender;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
